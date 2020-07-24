@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_light_default"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/cardview_shadow_start_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+             <ImageView
+                 android:id="@+id/logo"
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:background="@drawable/ic_baseline_dashboard_24"
+                 />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="match_parent"
+                android:text="welcome"
+                android:gravity="center"
+                android:layout_toEndOf="@+id/logo"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="70dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="240dp"
+                android:layout_height="200dp"
+                android:text="My Profile"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:textColor="@color/cardview_light_background"
+                android:drawableTop="@drawable/ic_outline_perm_contact_calendar_24"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"/>
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="240dp"
+                android:layout_height="200dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"
+                android:layout_toEndOf="@id/one"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp">
+
+            <Button
+                android:id="@+id/thr"
+                android:layout_width="240dp"
+                android:layout_height="200dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"/>
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="240dp"
+                android:layout_height="200dp"
+                android:layout_toEndOf="@id/thr"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp">
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"/>
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_default"
+                android:layout_toEndOf="@id/five"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
